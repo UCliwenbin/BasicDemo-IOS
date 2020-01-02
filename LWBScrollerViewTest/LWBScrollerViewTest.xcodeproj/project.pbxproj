@@ -14,6 +14,12 @@
 		04DDD5E723BCCC93008C00F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DDD5E623BCCC93008C00F8 /* Assets.xcassets */; };
 		04DDD5EA23BCCC93008C00F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DDD5E823BCCC93008C00F8 /* LaunchScreen.storyboard */; };
 		04DDD5ED23BCCC93008C00F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DDD5EC23BCCC93008C00F8 /* main.m */; };
+		04DDD5F423BCDAB4008C00F8 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DDD5F323BCDAB4008C00F8 /* image.png */; };
+		04DDD5F723BD982C008C00F8 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DDD5F623BD982C008C00F8 /* PageViewController.m */; };
+		04DDD5F923BD9C7B008C00F8 /* first.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04DDD5F823BD9C7B008C00F8 /* first.jpeg */; };
+		04DDD5FB23BD9C81008C00F8 /* second.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04DDD5FA23BD9C81008C00F8 /* second.jpeg */; };
+		04DDD5FD23BD9C8A008C00F8 /* Third.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04DDD5FC23BD9C89008C00F8 /* Third.jpeg */; };
+		04DDD5FF23BD9C91008C00F8 /* Forth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DDD5FE23BD9C91008C00F8 /* Forth.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +35,13 @@
 		04DDD5E923BCCC93008C00F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04DDD5EB23BCCC93008C00F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04DDD5EC23BCCC93008C00F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DDD5F323BCDAB4008C00F8 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		04DDD5F523BD982C008C00F8 /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		04DDD5F623BD982C008C00F8 /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		04DDD5F823BD9C7B008C00F8 /* first.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = first.jpeg; sourceTree = "<group>"; };
+		04DDD5FA23BD9C81008C00F8 /* second.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = second.jpeg; sourceTree = "<group>"; };
+		04DDD5FC23BD9C89008C00F8 /* Third.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Third.jpeg; sourceTree = "<group>"; };
+		04DDD5FE23BD9C91008C00F8 /* Forth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Forth.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,11 @@
 		04DDD5D923BCCC8F008C00F8 /* LWBScrollerViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				04DDD5FE23BD9C91008C00F8 /* Forth.jpg */,
+				04DDD5FC23BD9C89008C00F8 /* Third.jpeg */,
+				04DDD5FA23BD9C81008C00F8 /* second.jpeg */,
+				04DDD5F823BD9C7B008C00F8 /* first.jpeg */,
+				04DDD5F323BCDAB4008C00F8 /* image.png */,
 				04DDD5DA23BCCC8F008C00F8 /* AppDelegate.h */,
 				04DDD5DB23BCCC8F008C00F8 /* AppDelegate.m */,
 				04DDD5DD23BCCC8F008C00F8 /* SceneDelegate.h */,
@@ -72,6 +90,8 @@
 				04DDD5E823BCCC93008C00F8 /* LaunchScreen.storyboard */,
 				04DDD5EB23BCCC93008C00F8 /* Info.plist */,
 				04DDD5EC23BCCC93008C00F8 /* main.m */,
+				04DDD5F523BD982C008C00F8 /* PageViewController.h */,
+				04DDD5F623BD982C008C00F8 /* PageViewController.m */,
 			);
 			path = LWBScrollerViewTest;
 			sourceTree = "<group>";
@@ -135,7 +155,12 @@
 			files = (
 				04DDD5EA23BCCC93008C00F8 /* LaunchScreen.storyboard in Resources */,
 				04DDD5E723BCCC93008C00F8 /* Assets.xcassets in Resources */,
+				04DDD5F923BD9C7B008C00F8 /* first.jpeg in Resources */,
+				04DDD5FF23BD9C91008C00F8 /* Forth.jpg in Resources */,
+				04DDD5FB23BD9C81008C00F8 /* second.jpeg in Resources */,
 				04DDD5E523BCCC8F008C00F8 /* Main.storyboard in Resources */,
+				04DDD5FD23BD9C8A008C00F8 /* Third.jpeg in Resources */,
+				04DDD5F423BCDAB4008C00F8 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +174,7 @@
 				04DDD5E223BCCC8F008C00F8 /* ViewController.m in Sources */,
 				04DDD5DC23BCCC8F008C00F8 /* AppDelegate.m in Sources */,
 				04DDD5ED23BCCC93008C00F8 /* main.m in Sources */,
+				04DDD5F723BD982C008C00F8 /* PageViewController.m in Sources */,
 				04DDD5DF23BCCC8F008C00F8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
