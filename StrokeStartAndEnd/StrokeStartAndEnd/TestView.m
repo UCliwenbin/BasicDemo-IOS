@@ -13,15 +13,7 @@
 
 
 - (void)drawRect:(CGRect)rect {
-//    UIBezierPath *bezierPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.bounds.size.width/2,self.bounds.size.height/2) radius:MIN(self.bounds.size.width, self.bounds.size.height)/2 startAngle:M_PI*3/2 endAngle:M_PI*7/2 clockwise:YES];
-//
-//    // 对勾
-//    CGFloat W = self.frame.size.width *0.9;
-//    CGFloat H = self.frame.size.height*0.9;
-//    UIBezierPath *subPath  = [UIBezierPath bezierPath];
-//    [subPath moveToPoint:CGPointMake(W/4,H/2)];
-//    [subPath addLineToPoint:CGPointMake(W/2,(H/2)+ H/4)];
-//    [subPath addLineToPoint:CGPointMake(W-(W/8),H/4)];
+
     NSString *str = @"abcdeft";
     UIBezierPath *bezierPath = [self getStringLayer:str];
     // 添加到路径上 由于CAShapeLayer只能添加一条路径  幸好贝赛尔曲线有个appendPath: 方法 可以让我们画多条路径
@@ -42,12 +34,6 @@
     animEnd.toValue = @(1);
     [shapeLayer addAnimation:animEnd forKey:nil];
     
-//    CABasicAnimation *animStart = [CABasicAnimation animationWithKeyPath:@"strokeStart"];
-//    animStart.beginTime = CACurrentMediaTime() + 2;
-//    animStart.duration = 5;
-//    animStart.fromValue = @(0);
-//    animStart.toValue = @(1);
-//    [shapeLayer addAnimation:animStart forKey:nil];
 }
 
 - (UIBezierPath *)getStringLayer:(NSString *)str{
