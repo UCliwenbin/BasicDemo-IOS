@@ -38,7 +38,7 @@
     CGContextAddEllipseInRect(ctx, circleRect);
     CGContextSetFillColorWithColor(ctx, self.trackColor.CGColor);
     CGContextFillPath(ctx);
-    CGContextAddArc(ctx, center.x, center.y, radius-10, self.startAngle, self.startAngle+self.progress*2*M_PI, 0);
+    CGContextAddArc(ctx, center.x, center.y, radius, self.startAngle, self.startAngle+self.progress*2*M_PI, 0);
     CGContextAddLineToPoint(ctx, center.x, center.y);
     CGContextClosePath(ctx);
     CGContextSetFillColorWithColor(ctx, self.tintColor.CGColor);
