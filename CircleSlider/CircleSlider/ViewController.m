@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.slider = [[CircleSlider alloc] initWithFrame:CGRectMake(10, 10, 200, 200)];
+    self.slider.center = self.view.center;
     [self.view addSubview:self.slider];
     self.slider.backgroundColor = [UIColor orangeColor];
     [self.slider addTarget:self action:@selector(updateProgress:) forControlEvents:(UIControlEventValueChanged)];
