@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Slider : UISlider
 
 @property (nonatomic, strong) ShowTextView *popover;
+@property (nonatomic, assign) CGRect thumbRect;
 - (void)showPopoverAnimated:(BOOL)animated;
 - (void)hidePopoverAnimated:(BOOL)animated;
 

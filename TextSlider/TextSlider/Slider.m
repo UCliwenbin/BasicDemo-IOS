@@ -21,6 +21,13 @@
     return _popover;
 }
 
+- (CGRect)thumbRectForBounds:(CGRect)bounds trackRect:(CGRect)rect value:(float)value {
+    CGRect thumbRect = [super thumbRectForBounds:bounds trackRect:rect value:value];
+    self.thumbRect = thumbRect;
+    return thumbRect;
+}
+
+
 - (void)updatePopoverFrame {
     CGFloat minimum = self.minimumValue;
     CGFloat maximum = self.maximumValue;
@@ -35,15 +42,11 @@
     CGFloat maxMin = (maximum + minimum) / 2;
     x += (((value - minimum) / (maximum - minimum)) * self.frame.size.width) - (self.popover.frame.size.width / 2.0);
     if (value > maxMin) {
-        value = (value - maxMin) + (minimum * 1.0);
-        value = value / maxMin;
-        value = value * 11.0;
-        x = x - value;
+        CGFloat percent = (value - maxMin)/maxMin;
+        x -= (self.thumbRect.size.width / 2)*percent;
     } else {
-        value = (maxMin - value) + (minimum * 1.0);
-        value = value / maxMin;
-        value = value * 11.0;
-        x = x + value;
+        CGFloat percent = (maxMin - value)/maxMin;
+        x += (self.thumbRect.size.width / 2)*percent;
     }
     CGRect popoverRect = self.popover.frame;
     popoverRect.origin.x = x;

@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:self.textView];
-    self.slider = [[Slider alloc] initWithFrame:CGRectMake(10, 100, 200, 20)];
+    self.slider = [[Slider alloc] initWithFrame:CGRectMake(10, 100, 300, 20)];
     self.slider.minimumValue = 0.f;
     self.slider.maximumValue = 100.f;
     self.slider.center = self.view.center;
