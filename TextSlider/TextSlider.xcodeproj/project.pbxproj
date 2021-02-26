@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04921567240105550016659C /* Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 04921566240105550016659C /* Slider.m */; };
+		0492156A24027F3C0016659C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492156924027F3C0016659C /* Person.m */; };
 		04B75BA823FC0EEF00671119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B75BA723FC0EEF00671119 /* AppDelegate.m */; };
 		04B75BAB23FC0EEF00671119 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B75BAA23FC0EEF00671119 /* SceneDelegate.m */; };
 		04B75BAE23FC0EEF00671119 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B75BAD23FC0EEF00671119 /* ViewController.m */; };
@@ -16,11 +17,15 @@
 		04B75BB623FC0EF700671119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B75BB423FC0EF700671119 /* LaunchScreen.storyboard */; };
 		04B75BB923FC0EF700671119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B75BB823FC0EF700671119 /* main.m */; };
 		04B75BC123FC0FEF00671119 /* ShowTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B75BC023FC0FEF00671119 /* ShowTextView.m */; };
+		04F0F5C02405579C00FCE0BB /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F5BF2405579C00FCE0BB /* Test.m */; };
+		04F1CF59240A62C100A4C8DE /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F1CF58240A62C100A4C8DE /* NSTimer+Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04921565240105550016659C /* Slider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
 		04921566240105550016659C /* Slider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slider.m; sourceTree = "<group>"; };
+		0492156824027F3C0016659C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0492156924027F3C0016659C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		04B75BA323FC0EEF00671119 /* TextSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B75BA623FC0EEF00671119 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04B75BA723FC0EEF00671119 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +40,10 @@
 		04B75BB823FC0EF700671119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04B75BBF23FC0FEF00671119 /* ShowTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowTextView.h; sourceTree = "<group>"; };
 		04B75BC023FC0FEF00671119 /* ShowTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowTextView.m; sourceTree = "<group>"; };
+		04F0F5BE2405579C00FCE0BB /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		04F0F5BF2405579C00FCE0BB /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		04F1CF57240A62C100A4C8DE /* NSTimer+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = "<group>"; };
+		04F1CF58240A62C100A4C8DE /* NSTimer+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0492156B2402808D0016659C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04B75B9A23FC0EEE00671119 = {
 			isa = PBXGroup;
 			children = (
 				04B75BA523FC0EEF00671119 /* TextSlider */,
 				04B75BA423FC0EEF00671119 /* Products */,
+				0492156B2402808D0016659C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +99,12 @@
 				04B75BC023FC0FEF00671119 /* ShowTextView.m */,
 				04921565240105550016659C /* Slider.h */,
 				04921566240105550016659C /* Slider.m */,
+				0492156824027F3C0016659C /* Person.h */,
+				0492156924027F3C0016659C /* Person.m */,
+				04F0F5BE2405579C00FCE0BB /* Test.h */,
+				04F0F5BF2405579C00FCE0BB /* Test.m */,
+				04F1CF57240A62C100A4C8DE /* NSTimer+Block.h */,
+				04F1CF58240A62C100A4C8DE /* NSTimer+Block.m */,
 			);
 			path = TextSlider;
 			sourceTree = "<group>";
@@ -157,7 +180,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B75BAE23FC0EEF00671119 /* ViewController.m in Sources */,
+				04F0F5C02405579C00FCE0BB /* Test.m in Sources */,
 				04B75BA823FC0EEF00671119 /* AppDelegate.m in Sources */,
+				0492156A24027F3C0016659C /* Person.m in Sources */,
+				04F1CF59240A62C100A4C8DE /* NSTimer+Block.m in Sources */,
 				04B75BC123FC0FEF00671119 /* ShowTextView.m in Sources */,
 				04B75BB923FC0EF700671119 /* main.m in Sources */,
 				04921567240105550016659C /* Slider.m in Sources */,

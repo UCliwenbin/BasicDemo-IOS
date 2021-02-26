@@ -13,8 +13,10 @@
 
 
 - (void)drawRect:(CGRect)rect {
-
-    NSString *str = @"abcdeft";
+    for (CAShapeLayer *layer in self.layer.sublayers) {
+        [layer removeFromSuperlayer];
+    }
+    NSString *str = @"王立文";
     UIBezierPath *bezierPath = [self getStringLayer:str];
     // 添加到路径上 由于CAShapeLayer只能添加一条路径  幸好贝赛尔曲线有个appendPath: 方法 可以让我们画多条路径
     

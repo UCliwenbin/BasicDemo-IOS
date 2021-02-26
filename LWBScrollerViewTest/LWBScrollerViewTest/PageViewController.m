@@ -77,7 +77,7 @@
 - (void)changePage:(id)sener {
     NSUInteger page = self.pageControl.currentPage;
     CGRect bounds = self.scrollView.bounds;
-    bounds.origin.x = CGRectGetWidth(bounds) * page;
+    bounds.origin.x = CGRectGetWidth(bounds) * page +  CGRectGetWidth(bounds)/2;
     bounds.origin.y = self.scrollView.frame.origin.y;
     [self.scrollView scrollRectToVisible:bounds animated:YES];
 }

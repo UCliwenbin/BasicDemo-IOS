@@ -27,6 +27,10 @@
     return self;
 }
 
+- (void)drawRect:(CGRect)rect {
+    
+}
+
 - (void)setFrame:(CGRect)frame {
     [super setFrame:frame];
     CGFloat y = (frame.size.height -26) / 3;

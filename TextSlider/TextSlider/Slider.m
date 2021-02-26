@@ -7,6 +7,7 @@
 //
 
 #import "Slider.h"
+#import <objc/runtime.h>
 
 @implementation Slider
 
